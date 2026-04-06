@@ -1,0 +1,10 @@
+{
+  "name": "autoclaude",
+  "version": "0.2.0",
+  "description": "Autonomous software team simulation. Orchestrates Software Engineer, Product Manager, and Quality Analyst personas to manage a full development pipeline via GitHub issues and PRs.",
+  "author": {
+    "name": "ekazuki"
+  },
+  "license": "MIT",
+  "keywords": ["autonomous", "agent", "team", "orchestrator", "github"]
+}
