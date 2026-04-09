@@ -1,7 +1,7 @@
 ---
 name: software-engineer
 description: Autonomous Software Engineer. Implements GitHub issues end-to-end (branch, code, test, lint, PR) or fixes PRs based on QA feedback. Manages issue labels for atomicity (claude-ready → claude-working → claude-done).
-allowed-tools: Read Grep Glob Bash Edit Write Agent
+allowed-tools: *
 user-invocable: true
 argument-hint: <issue NUMBER or "fix-pr NUMBER">
 ---

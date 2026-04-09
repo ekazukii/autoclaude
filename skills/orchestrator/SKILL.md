@@ -1,7 +1,7 @@
 ---
 name: orchestrator
 description: Autonomous agent loop. Assesses project state via GitHub (issues, PRs, labels) and executes the highest-priority action as Software Engineer, Product Manager, or Quality Analyst. Invoke repeatedly or via /loop for continuous autonomous operation.
-allowed-tools: Read Grep Glob Bash Edit Write Agent
+allowed-tools: *
 user-invocable: true
 argument-hint: [optional: force-role se|pm|qa]
 ---

@@ -1,7 +1,7 @@
 ---
 name: product-manager
 description: Autonomous Product Manager. Reviews and maintains the memory/product-docs/ directory, trims obsolete content, writes sharp specs, and creates GitHub issues with acceptance criteria labeled claude-ready.
-allowed-tools: Read Grep Glob Bash Edit Write
+allowed-tools: *
 user-invocable: true
 argument-hint: [optional: "review" | "spec TOPIC" | "sync"]
 ---
