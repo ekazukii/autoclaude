@@ -1,0 +1,11 @@
+{
+  "name": "autoclaude",
+  "owner": { "name": "ekazuki" },
+  "plugins": [
+    {
+      "name": "autoclaude",
+      "source": "./",
+      "description": "Autonomous software team simulation. Orchestrates Software Engineer, Product Manager, and Quality Analyst personas to manage a full development pipeline via GitHub issues and PRs."
+    }
+  ]
+}
