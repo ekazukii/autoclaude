@@ -2,6 +2,13 @@
 # Appends the last assistant message to memory/devlog on every Stop event.
 
 INPUT=$(cat)
+
+# Debug: log raw input and cwd
+DEBUG_LOG="/tmp/devlog-debug.log"
+echo "=== $(date '+%Y-%m-%d %H:%M:%S') ===" >> "$DEBUG_LOG"
+echo "CWD: $(pwd)" >> "$DEBUG_LOG"
+echo "INPUT: $INPUT" >> "$DEBUG_LOG"
+
 TRANSCRIPT=$(echo "$INPUT" | jq -r '.transcript_path // empty')
 
 if [[ -z "$TRANSCRIPT" || ! -f "$TRANSCRIPT" ]]; then
